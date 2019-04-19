@@ -32,7 +32,7 @@
     <key alias="unassigned">Non assegnato</key>
     <key alias="information">Informazione</key>
     <key alias="details">Dettagli</key>
-    <key alias="timeline">Sequenza temporale</key>
+    <key alias="timeline">Cronologia</key>
     <key alias="dashboard">Cruscotto</key>
     <key alias="notFound">Nessun articolo trovato.</key>
     <key alias="daysOverdue">giorni di ritardo</key>
