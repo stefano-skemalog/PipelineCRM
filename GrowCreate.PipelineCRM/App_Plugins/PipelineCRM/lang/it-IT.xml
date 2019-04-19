@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="it_it" intName="Italiano (IT)" localName="Italiano (IT)" lcid="" culture="it-IT">
+  <creator>
+    <name>GrowCreate</name>
+    <link>http://growcreate.co.uk</link>
+  </creator>
+  <area alias="sections">
+    <key alias="pipelineCrm">Pipeline CRM</key>
+  </area>
+  <area alias="pipeline">
+    <key alias="opportunity">Opportunità</key>
+    <key alias="contact">Contatti</key>
+    <key alias="organisation">Organizzazione</key>
+    <key alias="segment">Segmenti</key>
+    <key alias="task">Attività</key>
+    <key alias="forThis">per questo</key>
+
+    <key alias="segments">Segmenti</key>
+    <key alias="opportunities">Opportunità</key>
+    <key alias="contacts">Contatti</key>
+    <key alias="organisations">Organizzazione</key>
+    <key alias="statuses">Stato</key>
+    <key alias="types">tipi</key>
+    <key alias="tasks">Attività</key>
+    <key alias="myTasks">Le mie attività</key>
+    <key alias="notifications">Notifiche</key>
+    <key alias="archive">Archivio</key>
+    <key alias="settings">Impostazioni</key>
+    
+    <key alias="none">Nessuna</key>
+    <key alias="showAll">Mostra tutto</key>
+    <key alias="unassigned">Non assegnato</key>
+    <key alias="information">Informazione</key>
+    <key alias="details">Dettagli</key>
+    <key alias="timeline">Sequenza temporale</key>
+    <key alias="dashboard">Cruscotto</key>
+    <key alias="notFound">Nessun articolo trovato.</key>
+    <key alias="daysOverdue">giorni di ritardo</key>
+    <key alias="addedBy">Aggiunto da</key>
+    <key alias="linkedTo">Collegato a</key>
+    <key alias="in">in</key>
+    <key alias="changesSavedOnSubmit">Nessuna modifica avrà effetto finché non salvi</key>
+    <key alias="licenseLimit">Siamo spiacenti, hai raggiunto il limite per la versione gratuita. Se vuoi articoli illimitati, ti preghiamo di acquistare una licenza.</key>
+
+    <key alias="edit">Modifica</key>
+    <key alias="restore">Ripristina</key>
+    <key alias="duplicate">Duplica</key>
+    <key alias="deletePermanently">Elimina definitivamente</key>
+
+    <key alias="areYouSure">Sei sicuro?</key>
+    <key alias="areYouSureCopy">Sei sicuro di voler cancellare questo record? Non sarà possibile tornare indietro!</key>
+    <key alias="deleteLinks">Cancella collegamenti</key>
+    <key alias="deleteLinksHelp">Spunta per eliminare anche tutti gli oggetti correlati.</key>
+
+    <key alias="status">Stato</key>
+    <key alias="statusHelp">Seleziona uno stato</key>
+    <key alias="owner">Proprietario</key>
+    <key alias="ownerHelp">Proprietario di questa opportunità</key>
+    <key alias="value">Valore</key>
+    <key alias="valueHelp">Totale valore opportunità</key>
+    <key alias="probability">Probabilità</key>
+    <key alias="probabilityHelp">Probabilità di vincere</key>
+    <key alias="adjustedValue">Valore corretto</key>
+    <key alias="adjustedValueHelp">Totale valore / probabilità %</key>
+    <key alias="completeDate">Data di chiusura</key>
+    <key alias="completeDateHelp">Quando verrà deciso l'opportunità</key>
+    <key alias="createdDate">Data di Creazione</key>
+    <key alias="createdDateHelp">Quando è arrivata l'opportunità</key>
+    <key alias="title">Titolo</key>
+    <key alias="titleHelp">Aggiungi un titolo personale o professionale</key>
+    <key alias="assignedTo">Assegnato a</key>
+    <key alias="assignedToHelp">Seleziona un utente proprietario</key>
+    <key alias="description">Descrizione</key>
+    <key alias="descriptionHelp">Inserisci una descrizione</key>
+    <key alias="type">Tipo</key>
+    <key alias="typeHelp">Seleziona un tipo</key>
+    <key alias="isTask">E' un'attività?</key>
+    <key alias="dueDate">Scadenza</key>
+    <key alias="dueDateHelp">Inserisci una scadenza se questa è un'attività</key>
+    <key alias="reminderDate">Promemoria</key>
+    <key alias="reminderDateHelp">invia un promemoria prima della scadenza</key>
+    <key alias="files">Files</key>
+    <key alias="filesHelp">Allega files</key>
+    <key alias="organisationsHelp">Una o più organizzazioni</key>
+    <key alias="organisationHelp">Seleziona l'organizzazione di destinazione</key>
+    <key alias="contactsHelp">Uno o più contatti</key>
+    <key alias="contactHelp">Seleziona ilcontatto di destinazione</key>
+    <key alias="email">Email</key>
+    <key alias="emailHelp">Inserisci un indirizzo email</key>
+    <key alias="telephone">Telefono</key>
+    <key alias="telephoneHelp">Inserisci un numero telefonico</key>
+    <key alias="mobile">Cellulare</key>
+    <key alias="mobileHelp">Inserisci un numero di cellulare</key>
+    <key alias="website">Sito Web</key>
+    <key alias="websiteHelp">Inserisciun sito web</key>
+    <key alias="address">Indirizzo</key>
+    <key alias="addressHelp">Inserisci un indirizzo</key>
+    <key alias="digest">Riepilogo</key>
+    <key alias="digestHelp">Nuove opportunità e attività imminenti da invio quotidiano di email</key>
+    <key alias="receiveDigest">Vuoi ricevere il riepilogo?</key>
+
+    <key alias="criteria">Criteri</key>
+    <key alias="criteriaHelp">Seleziona segmento di criteri</key>
+    <key alias="priority">Priorità</key>
+    <key alias="priorityHelp">Punteggio prioritario per gli utenti in più segmenti</key>
+    <key alias="preview">Anteprima</key>
+    <key alias="previewHelp">Contatti attuali per questo segmento</key>
+
+  </area>
+
+</language>

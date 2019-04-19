@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -252,6 +253,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\PipelineCRM\lang\it-IT.xml" />
     <Content Include="App_Plugins\PipelineCRM\PipelineCRM-icon.png" />
     <Content Include="packages.config" />
     <Content Include="App_Plugins\PipelineCRM\package.manifest" />
@@ -295,7 +297,7 @@
     <Content Include="App_Plugins\PipelineCRM\dialogs\pipeline.summary.html" />
     <Content Include="App_Plugins\PipelineCRM\dialogs\task.add.html" />
     <Content Include="App_Plugins\PipelineCRM\dialogs\task.share.html" />
-    <Content Include="App_Plugins\PipelineCRM\lang\en.xml" />
+    <Content Include="App_Plugins\PipelineCRM\lang\en-US.xml" />
     <Content Include="App_Plugins\PipelineCRM\pipeline.controller.js" />
     <Content Include="App_Plugins\PipelineCRM\pipeline.directives.js" />
     <Content Include="App_Plugins\PipelineCRM\pipeline.filters.js" />
