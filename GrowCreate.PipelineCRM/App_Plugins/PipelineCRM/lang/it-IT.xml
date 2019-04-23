@@ -10,7 +10,7 @@
   <area alias="pipeline">
     <key alias="opportunity">Opportunità</key>
     <key alias="contact">Contatti</key>
-    <key alias="organisation">Organizzazione</key>
+    <key alias="organisation">Organizzazioni</key>
     <key alias="segment">Segmenti</key>
     <key alias="task">Attività</key>
     <key alias="forThis">per questo</key>

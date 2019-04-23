@@ -122,6 +122,9 @@ namespace GrowCreate.PipelineCRM
             // add admin user to pipeline if not already added
             AppPermissions.Grant("pipelineCrm");
 
+            if (!Directory.Exists(HttpContext.Current.Server.MapPath("/umbraco/images/tray")))
+                Directory.CreateDirectory(HttpContext.Current.Server.MapPath("/umbraco/images/tray"));
+
             // Copy icon
             if (!File.Exists(HttpContext.Current.Server.MapPath("/umbraco/images/tray/PipelineCRM-icon.png")))
                 File.Copy(HttpContext.Current.Server.MapPath("/App_plugins/PipelineCRM/PipelineCRM-icon.png"),
