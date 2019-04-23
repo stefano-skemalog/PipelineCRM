@@ -34,7 +34,7 @@
     <key alias="details">Dettagli</key>
     <key alias="timeline">Cronologia</key>
     <key alias="dashboard">Cruscotto</key>
-    <key alias="notFound">Nessun articolo trovato.</key>
+    <key alias="notFound">Nessun elemento trovato.</key>
     <key alias="daysOverdue">giorni di ritardo</key>
     <key alias="addedBy">Aggiunto da</key>
     <key alias="linkedTo">Collegato a</key>
