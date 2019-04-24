@@ -44,7 +44,7 @@
                 <div class="umb-pane form-horizontal">
 
                     <umb-control-group label="@pipeline_status" description="@pipeline_statusHelp">
-                        <select required ng-required="required" ng-model="pipeline.StatusId"
+                        <select required ng-required="required" ng-model="pipeline.StatusId" ng-change="statusChange()"
                                 ng-options="status.Id as status.Name for status in Statuses"></select>
                     </umb-control-group>
 

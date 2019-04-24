@@ -276,6 +276,14 @@ angular.module("umbraco").controller("Pipeline.PipelineEditController",
 	        });
 	    };
 
+        $scope.statusChange = function () {
+            $scope.Statuses.forEach(function (obj, i) {
+                if ($scope.pipeline.StatusId && obj.Id == $scope.pipeline.StatusId) {
+                    $scope.pipeline.Probability = obj.Probability;
+                };
+            });
+
+        };
 
 	});
 
@@ -1574,7 +1582,7 @@ angular.module("umbraco").controller("Pipeline.Timeline",
             } else {
                 pipelineResource.getStatuses().then(function (response) {
                     $scope.Statuses = response.data;
-                    $scope.Statuses.unshift({ Id: -1, Name: 'Unassigned' });
+                    $scope.Statuses.unshift({ Id: -1, Name: localizationService.localize('pipeline_unassigned') });
 
                     $scope.$watch('pipelines', function () {
                         refreshBoard();
@@ -1689,7 +1697,8 @@ angular.module("umbraco").controller("Pipeline.Timeline",
 	            template: '/App_Plugins/PipelineCRM/dialogs/pipeline.add.html',
 	            dialogData: {
 	                StatusId: Math.max(0, status.Id),
-	                Status: status
+                    Status: status,
+                    Probability: status.Probability
 	            },
 	            callback: function (pipeline) {
 	                pipelineResource.quickCreatePipeline(pipeline).then(function (response) {
