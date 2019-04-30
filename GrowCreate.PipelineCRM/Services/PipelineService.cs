@@ -289,7 +289,13 @@ namespace GrowCreate.PipelineCRM.Services
             return new PipelineApiController().PostSave(pipeline);
         }
 
-        
+        public Pipeline GetById(int id)
+        {
+            var query = new Sql().Select("*").From("pipelinePipeline").Where<Pipeline>(x => x.Id == id);
+            var pipeline = DbService.db().Fetch<Pipeline>(query).FirstOrDefault();
+
+            return pipeline;
+        }
 
     }
 }

@@ -380,6 +380,7 @@
     <Compile Include="Models\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterEvents.cs" />
+    <Compile Include="Services\TaskService.cs" />
     <Compile Include="Tree\PipelineCrmSection.cs" />
     <Compile Include="Extensibility\SegmentCriteria\ISegmentCriteria.cs" />
     <Compile Include="Extensibility\SegmentCriteria\SelectContactsSegmentCriteria.cs" />
