@@ -130,9 +130,9 @@ namespace GrowCreate.PipelineCRM.Services
                         DateCreated = DateTime.Now,
                         Email = email
                     });
-
-                    currentOrgId = currentOrg.Id;
                 }
+
+                currentOrgId = currentOrg.Id;
             }
 
             // check if we have a member with that email, if not create one
@@ -297,5 +297,9 @@ namespace GrowCreate.PipelineCRM.Services
             return pipeline;
         }
 
+        public IEnumerable<GrowCreate.PipelineCRM.Models.Status> GetStatuses()
+        {
+            return new StatusApiController().GetAll();
+        }
     }
 }
